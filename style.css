@@ -1,5 +1,5 @@
 .nav {
-    background-color: black;
+    background-color: grey;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,13 +8,25 @@
 
 h1 {
     color: white;
-    font-family: sans-serif;
+    font-family: myFirstFont;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Roboto/Roboto-Bold.ttf);
+    fontD-weight: bold;
 }
 
 ul {
     display: flex;
+    font-family: myFirstFont;
+    list-style-type: none;
 }
 
 li {
     margin: 10px;
+}
+
+.btn{
+    background-color: cyan;
 }
