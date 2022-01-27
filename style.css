@@ -23,10 +23,36 @@ ul {
     list-style-type: none;
 }
 
+a:hover{
+    color: green;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:active{
+    color: white;
+}
+
 li {
     margin: 10px;
 }
 
 .btn{
-    background-color: cyan;
+    background-color: skyblue;
+    color: black;
+    padding: 5px 20px 5px 20px;
+    box-shadow: 5px 10px #000000;
+    border-color: black;
+}
+
+.btn:hover{
+    color: green;
+    background-color: darkgreen;
+}
+
+.btn:active{
+    color: grey;
+    background-color: black;
 }
